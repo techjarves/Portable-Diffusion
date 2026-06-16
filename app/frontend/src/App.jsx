@@ -366,7 +366,7 @@ function App() {
   }, [serverRunning, isStoppingServer, showAlert]);
 
   const readinessIssues = [
-    ...(health?.stale ? ["Restart Local AI Image Generator so the local server loads the latest API."] : []),
+    ...(health?.stale ? ["Restart Portable Diffusion so the local server loads the latest API."] : []),
     ...(health?.issues || []),
   ];
   const cleanupBytes = cleanupItems.reduce((sum, item) => sum + Number(item.sizeBytes || 0), 0);
@@ -401,7 +401,7 @@ function App() {
                   {health?.stale
                     ? `Running server build: ${health.build || "unknown"}`
                     : readinessIssues.length > 0
-                      ? "Local AI Image Generator found setup items that may need attention."
+                      ? "Portable Diffusion found setup items that may need attention."
                       : `${cleanupItems.length} temporary item${cleanupItems.length === 1 ? "" : "s"} can be cleaned (${formatBytes(cleanupBytes)}).`}
                 </p>
               </div>
