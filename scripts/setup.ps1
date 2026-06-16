@@ -1,4 +1,4 @@
-# Local AI Image Generator - Setup Script
+# Portable-Diffusion - Setup Script
 # scripts/ lives at root, app/ is a sibling folder
 
 $scriptDir   = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -15,7 +15,7 @@ $distDir     = Join-Path $appDir   "dist"
 function Print-Header {
     Write-Host ""
     Write-Host "  ============================================================" -ForegroundColor Cyan
-    Write-Host "   LOCAL AI IMAGE GENERATOR  -  First-Time Setup" -ForegroundColor Cyan
+    Write-Host "   PORTABLE DIFFUSION  -  First-Time Setup" -ForegroundColor Cyan
     Write-Host "   100% Self-Contained  |  No System Install Required" -ForegroundColor DarkCyan
     Write-Host "  ============================================================" -ForegroundColor Cyan
     Write-Host ""
