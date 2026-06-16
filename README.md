@@ -1,6 +1,6 @@
 # ⚡ Portable-Diffusion
 
-A premium, fully self-contained, zero-configuration desktop environment for offline Stable Diffusion image generation. Run your favorite Safetensors and GGUF models with hardware acceleration on Windows, Linux, and macOS without the hassle of configuring Python dependencies, global environments, or complex backend installs.
+A premium, fully self-contained, zero-configuration **local AI image generator** and desktop environment for offline Stable Diffusion image generation. Run your favorite Safetensors and GGUF models with hardware acceleration on Windows, Linux, and macOS without the hassle of configuring Python dependencies, global environments, or complex backend installs.
 
 ---
 
